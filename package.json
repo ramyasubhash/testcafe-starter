@@ -1,0 +1,16 @@
+{
+    "name": "testcafe-ingenuous-starter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "testcafe -c 1 chrome,firefox,edge,opera tests/"
+    },
+    "devDependencies": {
+        "testcafe": "^1.14.2",
+        "faker": "^5.5.3"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
