@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "testcafe -c 1 chrome,firefox,edge,opera tests/"
+        "paralleltest": "testcafe -c 1 chrome,firefox,edge tests/",
+        "test": "testcafe chrome tests/"
     },
     "devDependencies": {
         "testcafe": "^1.14.2",
