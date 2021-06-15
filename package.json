@@ -5,10 +5,12 @@
     "main": "index.js",
     "scripts": {
         "paralleltest": "testcafe -c 1 chrome,firefox,edge tests/",
-        "test": "testcafe chrome tests/"
+        "test": "testcafe chrome tests/",
+        "dtest": "testcafe chrome tests/t-dataDriven.js",
+        "rtest": "testcafe chrome tests/t-roles.js"
     },
     "devDependencies": {
-        "testcafe": "^1.14.2",
+        "testcafe": "1.8.8",
         "faker": "^5.5.3"
     },
     "keywords": [],

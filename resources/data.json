@@ -1,0 +1,14 @@
+[
+    {
+        "name": "standard user",
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "errormessage": ""
+    },
+    {
+        "name": "lock out user",
+        "username": "locked_out_user",
+        "password": "secret_sauce",
+        "errormessage": "Epic sadface: Sorry, this user has been locked out."
+    }
+]

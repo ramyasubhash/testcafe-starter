@@ -14,7 +14,7 @@ const logoutUser = async () => {
     await t.click('#react-burger-menu-btn').click('#logout_sidebar_link')
 }
 
-fixture`Login page`.page`${url}`
+fixture`test Hooks implementation`.page`${url}`
     .beforeEach(async () => {
         await loginUser()
     })
