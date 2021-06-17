@@ -1,14 +1,15 @@
 [
     {
-        "name": "standard user",
+        "role": "standard user",
         "username": "standard_user",
         "password": "secret_sauce",
-        "errormessage": ""
+        "success": true
     },
     {
-        "name": "lock out user",
+        "role": "lock out user",
         "username": "locked_out_user",
         "password": "secret_sauce",
+        "success": false,
         "errormessage": "Epic sadface: Sorry, this user has been locked out."
     }
 ]

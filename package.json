@@ -7,7 +7,8 @@
         "paralleltest": "testcafe -c 1 chrome,firefox,edge tests/",
         "test": "testcafe chrome tests/",
         "dtest": "testcafe chrome tests/t-dataDriven.js",
-        "rtest": "testcafe chrome tests/t-roles.js"
+        "rtest": "testcafe chrome tests/t-roles.js",
+        "webtest": "testcafe chrome --skip-js-errors tests/t-webtable.js"
     },
     "devDependencies": {
         "testcafe": "1.8.8",
