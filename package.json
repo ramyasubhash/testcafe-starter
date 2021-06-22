@@ -8,11 +8,13 @@
         "test": "testcafe chrome tests/",
         "dtest": "testcafe chrome tests/t-dataDriven.js",
         "rtest": "testcafe chrome tests/t-roles.js",
-        "webtest": "testcafe chrome --skip-js-errors tests/t-webtable.js"
+        "webtest": "testcafe chrome --skip-js-errors tests/t-webtable.js",
+        "ktest": "testcafe chrome --skip-js-errors  tests/t-kent.js"
     },
     "devDependencies": {
-        "testcafe": "1.8.8",
-        "faker": "^5.5.3"
+        "@testing-library/testcafe": "^4.4.0",
+        "faker": "^5.5.3",
+        "testcafe": "1.8.8"
     },
     "keywords": [],
     "author": "",
